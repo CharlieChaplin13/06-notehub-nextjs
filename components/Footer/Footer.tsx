@@ -1,5 +1,4 @@
 import css from './Footer.module.css';
-import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -10,7 +9,7 @@ const Footer = () => {
           <p>Developer: Dariia Markovych</p>
           <p>
             Contact us:
-            <Link href="<mailto:dmarkovych.code@gmail.com>">dmarkovych.code@gmail.com</Link>
+            <a href="mailto:dmarkovych.code@gmail.com">dmarkovych.code@gmail.com</a>
           </p>
         </div>
       </div>
